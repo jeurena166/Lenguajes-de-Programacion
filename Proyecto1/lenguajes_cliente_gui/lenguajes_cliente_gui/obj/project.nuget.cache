@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o89hp4hsTkWdL1RN3+z6J7T7LSLosd+s1ZRSzGh3JVIXc5gmGTMtpG1ftD0odLvtLTa0zuiFPRLk49FQgdezBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jeane\\OneDrive\\Desktop\\Lenguajes_De_Programacion_Proyecto1\\lenguajes_cliente_gui\\lenguajes_cliente_gui\\lenguajes_cliente_gui.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeane\\.nuget\\packages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}
