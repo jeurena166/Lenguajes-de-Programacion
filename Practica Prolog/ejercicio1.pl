@@ -5,8 +5,8 @@ sumlist([X|Xs], S) :-
     sumlist(Xs, S1),
     S is X + S1.
 
-%?- subconj([1, 2, 3], [1, 2, 3, 4, 5]).
-% true
+%?- sumlist([], S).
+%S = 0.
 
-%?- subconj([1, 2, 3], [4, 5, 6]).
-% false
+%?- sumlist([1.5, 2.7, 3.2, 4.1], S).
+%S = 11.5.
