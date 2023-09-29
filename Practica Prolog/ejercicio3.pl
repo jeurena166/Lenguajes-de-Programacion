@@ -7,3 +7,9 @@ aplanar([X|Xs], L2) :-
     append(X1, Xs1, L2).
 aplanar(X, [X]) :- \+ is_list(X).
 aplanar([], []).
+
+%?- aplanar([1, [2, 3], [4, [5, 6]]], Resultado).
+%Resultado = [1, 2, 3, 4, 5, 6].
+
+%?- aplanar([[], [a, b], [c, d], []], Resultado).
+%Resultado = [a, b, c, d].
