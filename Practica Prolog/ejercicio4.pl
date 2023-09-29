@@ -9,3 +9,7 @@ partir([X|Xs], Umbral, [X|Menores], Mayores) :-
 partir([X|Xs], Umbral, Menores, [X|Mayores]) :-
     X > Umbral,
     partir(Xs, Umbral, Menores, Mayores).
+
+%?- partir([2, 7, 4, 8, 9, 1], 6, Menores, Mayores).
+%Menores = [2, 4, 1],
+%Mayores = [7, 8, 9].
