@@ -7,3 +7,9 @@ sub_cadenas(Subcadena, [Cadena|CadenasRestantes], Filtradas) :-
     Filtradas = [Cadena|FiltradasRestantes].
 sub_cadenas(Subcadena, [_|CadenasRestantes], Filtradas) :-
     sub_cadenas(Subcadena, CadenasRestantes, Filtradas).
+
+%?- sub_cadenas("la", ["la casa", "el perro", "pintando la cerca"], Filtradas).
+%Filtradas = ["la casa", "pintando la cerca"].
+
+%?- sub_cadenas("a", ["manzana", "banana", "pera"], Filtradas).
+%Filtradas = ["manzana", "banana", "pera"].
