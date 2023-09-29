@@ -4,3 +4,9 @@ subconj([], _).
 subconj([X|Xs], S) :-
     member(X, S),
     subconj(Xs, S).
+
+%?- subconj([1, 2, 3], [1, 2, 3, 4, 5]).
+% true
+
+%?- subconj([1, 2, 3], [4, 5, 6]).
+% false
